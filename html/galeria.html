@@ -1,0 +1,33 @@
+
+		<p>Bienvenido, para registrarse en nuestros servicios haga click en las imagenes de abajo</p>
+	
+    <div id="container" align="center">
+      <br />	
+      <div id="banner-slide">
+        <ul class="bjqs">
+          <li><a href="../index.php?pagina=6"><img src="../imagen/banner01.jpg" title="Poteja sus datos" height="100%" width="100%" ></a></li>
+          <li><a href="../index.php?pagina=7"><img src="../imagen/banner02.jpg" title="Bienvenido a la Web 2.0, cree su sistema de usuarios" height="85%" width="100%"></a></li>
+          <li><a href="../index.php?pagina=8"><img src="../imagen/banner03.jpg" title="Le ayudamos con sus CMS" height="100%" width="100%"></a></li>
+          <li><a href="../index.php?pagina=9"><img src="../imagen/banner04.jpg" title="Mejoramos su posicionamiento con las mejores estrategias de SEO." height="100%" width="100%"></a></li>
+          <li><a href="../index.php?pagina=10"><img src="../imagen/banner05.jpg" title="Programación en diversos lenguajes" height="100%" width="100%"></a></li>
+          <li><a href="../index.php?pagina=11"><img src="../imagen/banner06.jpg" title="Administración de Servidores Linux y Windows" height="100%" width="100%"></a></li>
+         <li><a href="../index.php?pagina=12"><img src="../imagen/banner07.jpg" title="Quiere saber si su página es vulnerable? Servicios de Pentesting" height="100%" width="100%"></a></li>
+         
+		</ul>
+      </div>
+      <script>
+        jQuery(document).ready(function($) {
+          $('#banner-slide').bjqs({
+            animtype      : 'slide',
+            height        : 320,
+            width         : 620,
+            responsive    : true,
+            randomstart   : true,
+			nexttext : 'Sig',
+			prevtext : 'Atras',
+			keyboardnav : true,
+			hoverpause : true
+          });
+        });
+      </script>
+	</div>
